@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-In</title>
+    <style>
+        body{
+            margin:0px;
+             padding:0px;
+             background: tomato;
+        }
+        #container{
+              padding: 1px;
+               background: burlywood;
+              font-size: 22px;
+            text-decoration: underline;}
+            #container1{
+                margin: 5% auto 15% auto;
+                border: 1px solid #888;
+                 width: 60%;
+                background:white;
+                padding: 80px;
+            }
+            label{
+    width:80px;
+    text-decoration: bold;
+    display: inline-block;
+    text-align: right;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity:1;
+  }
+ </style>
+</head>
+<body>
+    <div align="center" id="container">
+        <h1>Sign-In</h1>
+    </div>
+    <div align="center" id="container1">
+        <h3><span style="text-decoration: underline;color: red;">Note:</span> Sign-In here to change your background color</h3>
+        <form action="https://bg-onclick.netlify.app/">
+            <label for="email">Email :</label>
+            <input type="email" name="email" placeholder="Enter Email" required><br><br>
+            <label for="password">Password :</label>
+            <input type="password" name="password" placeholder="Enter Password" required><br><br>
+            <button>Sign-In</button>
+        </form>
+    </div>
+</body>
+</html>
